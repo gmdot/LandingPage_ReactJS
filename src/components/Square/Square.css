@@ -1,0 +1,36 @@
+.squareReact {
+    margin: 45px 10px;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: -1px 2px 4px 1px rgba(99, 96, 96, 0.933);
+    transition: all 0.3s ease-out;
+    position: relative;
+    background-color: rgb(41, 38, 38);
+    color: #fff;
+    border: 3px solid #fff;
+    overflow-y: scroll;
+    display: block;
+}
+.squareReact:hover {
+    margin-top: 35px;
+}
+.squareReact h2 {
+    font-weight: 400;
+    font-size: 28px;
+}
+.squareReact p {
+    font-size: 14px;
+    padding: 0px 2px;
+}
+.squareReact img {
+    width: 100px;
+    animation: rotate 5s infinite linear;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}

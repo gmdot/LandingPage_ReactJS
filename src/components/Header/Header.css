@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+header {
+  padding: 0px 30px;
+  background-color: rgb(41, 38, 38);
+  color: #fff;
+  align-items: center;
+  display: flex;
+}
+
+header h1 {
+  font-weight: 400;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+header ul {
+  list-style-type: none;
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  right: 0px;
+  padding: 0px 30px;
+}
+header li {
+  padding: 0px 10px;
+}
