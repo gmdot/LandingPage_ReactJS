@@ -1,4 +1,7 @@
-.squareReact {
+.squares {
+    display: flex;
+}
+.squareFrameWork {
     margin: 45px 10px;
     width: 200px;
     height: 300px;
@@ -13,24 +16,39 @@
     overflow-y: scroll;
     display: block;
 }
-.squareReact:hover {
+.squareFrameWork:hover {
     margin-top: 35px;
 }
-.squareReact h2 {
+.squareFrameWork h2 {
     font-weight: 400;
     font-size: 28px;
 }
-.squareReact p {
+.squareFrameWork p {
     font-size: 14px;
     padding: 0px 2px;
 }
-.squareReact img {
+.squareFrameWork img {
     width: 100px;
-    animation: rotate 5s infinite linear;
+}
+.logoReact {
+    width: 100px;
+    animation: rotateReact 5s infinite linear;
+}
+.logoAngular {
+    animation: floatFrameWork 2s infinite linear;
+}
+.logoVue {
+    animation: floatFrameWork 2s infinite linear;
 }
 
-@keyframes rotate {
+@keyframes rotateReact {
     100% {
         transform: rotate(360deg);
     }
+}
+
+@keyframes floatFrameWork {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 12px); }
+    to   { transform: translate(0, -0px); }    
 }

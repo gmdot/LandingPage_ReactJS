@@ -13,8 +13,6 @@ function App() {
       <Header/>
       <div className="content" style={contentStyle}>
         <Square/>
-        <Square/>
-        <Square/>
       </div>
     </>
   );
