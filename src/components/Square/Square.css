@@ -42,9 +42,7 @@
 }
 
 @keyframes rotateReact {
-    100% {
-        transform: rotate(360deg);
-    }
+    100% { transform: rotate(360deg); }
 }
 
 @keyframes floatFrameWork {
