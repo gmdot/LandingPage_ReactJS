@@ -1,0 +1,27 @@
+a {
+    text-decoration: none;
+    color: #000;
+}
+.container {
+    width: 350px;
+    height: 30px;
+    margin: 15px auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: -1px 1px 4px 1px rgba(99, 96, 96, 0.933);
+    transition: all 0.3s ease;
+}
+.container:hover {
+    margin: 10px auto;
+}
+.container img {
+    width: 25px;
+    height: 25px;
+    padding: 10px 15px 10px 12px;
+}
+.container h2 {
+    font-weight: 500;
+    font-size: 15px;
+}

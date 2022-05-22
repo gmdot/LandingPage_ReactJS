@@ -1,5 +1,6 @@
 import Header from './components/Header/Header';
 import Square from './components/Square/Square';
+import VisitRepo from './components/VisitRepo/VisitRepo';
 
 const contentStyle = {
   display: 'flex',
@@ -14,6 +15,7 @@ function App() {
       <div className="content" style={contentStyle}>
         <Square/>
       </div>
+      <VisitRepo/>
     </>
   );
 }
