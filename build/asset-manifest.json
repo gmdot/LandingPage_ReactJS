@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4d37954.css",
+    "main.js": "/static/js/main.7c525bb4.js",
+    "static/media/React-icon.svg.png": "/static/media/React-icon.svg.8a6fc0a24a800d1e0f4a.png",
+    "static/media/Vue-Logo.png": "/static/media/Vue-Logo.4626039760cedf966189.png",
+    "index.html": "/index.html",
+    "main.c4d37954.css.map": "/static/css/main.c4d37954.css.map",
+    "main.7c525bb4.js.map": "/static/js/main.7c525bb4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4d37954.css",
+    "static/js/main.7c525bb4.js"
+  ]
+}
